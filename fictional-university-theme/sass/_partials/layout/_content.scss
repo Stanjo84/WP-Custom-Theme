@@ -1,0 +1,152 @@
+
+.generic-content p, .generic-content li {
+    font-size: 1.15rem;
+  }
+
+.generic-content blockquote, .generic-content blockquote p {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+
+.generic-content h1, .generic-content h2, .generic-content h3, .generic-content h4, .generic-content h5, .generic-content h6 {
+    font-family: $base-font-family;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+.generic-content h1 {font-size: 3.6rem}
+
+.generic-content h2 {font-size: 3.1rem}
+
+.generic-content h3 {font-size: 2.6rem}
+
+.generic-content h4 {font-size: 2.1rem}
+
+.generic-content h5 {font-size: 1.6rem}
+
+.generic-content h6 {font-size: 1.15rem}
+
+@media (min-width: 530px) {
+    .generic-content h1 {font-size: 6.25rem}
+    .generic-content h2 {font-size: 5rem}
+    .generic-content h3 {font-size: 3.125rem}
+    .generic-content h4 {font-size: 2.4rem}
+    .generic-content h5 {font-size: 1.9rem}
+    .generic-content h6 {font-size: 1.15rem}
+  }
+
+  /**
+ * Add the correct display in IE 10-.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.c-orange {color: #F95738}
+
+.c-blue {color: #0D3B66}
+
+.c-white {color: #FFF}
+
+.c-dark {color: #333}
+
+.gray {color: #999999}
+
+.one-half,
+.one-third,
+.one-fourth,
+.one-fifth,
+.one-sixth {
+  padding-bottom: 1.6rem;
+}
+
+@media (min-width: 960px) {
+  .row {
+    margin-right: -50px;
+  }
+
+  .one-half,
+  .one-third,
+  .two-thirds,
+  .one-fourth,
+  .one-fifth,
+  .one-sixth {
+    padding-bottom: 0;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 50px;
+  }
+
+  .two-thirds {width: 66.66%;}
+  .one-half {width: 50%}
+  .one-third {width: 33.33%}
+  .one-quarter {width: 25%}
+  .one-fifth {width: 20%}
+  .one-sixth {width: 16.66%}
+  }
+
+/* Make Top WP Admin Bar Fixed on Mobile */
+
+@media screen and (max-width: 600px) {
+  #wpadminbar {
+    position: fixed;
+  }
+}
+
+
+@media (min-width: 960px) {
+
+.full-width-split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+  }
+
+.full-width-split__one {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 1.6rem 16px;
+  }
+
+@media (min-width: 960px) {
+
+.full-width-split__one {
+      padding: 40px
+  }
+  }
+
+@media (min-width: 960px) {
+
+.full-width-split__one .full-width-split__inner {
+        float: right
+    }
+  }
+
+.full-width-split__two {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    background-color: #FAF0CA;
+    padding: 1.6rem 16px;
+  }
+
+@media (min-width: 960px) {
+
+.full-width-split__two {
+      padding: 40px
+  }
+  }
+
+@media (min-width: 1350px) {
+
+.full-width-split__inner {
+      width: 610px
+  }
+    }
+
+

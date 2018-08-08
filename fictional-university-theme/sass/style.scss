@@ -1,0 +1,44 @@
+/*!
+	Theme Name: Fictional University
+	Author: Stan
+	Version: 1.0 
+*/
+
+
+@import "compass";
+@import "compass/reset";
+
+@import "_partials/mixins";
+@import "_partials/variables";
+@import "_partials/scripting";
+@import "_partials/typography";
+@import "_partials/forms/search-overlay";
+@import "_partials/forms/buttons";
+@import "_partials/forms/login";
+@import "_partials/forms/spinner";
+@import "_partials/forms/search-form";
+@import "_partials/forms/search-trigger";
+@import "_partials/layout/container";
+@import "_partials/layout/content";
+@import "_partials/layout/event-summary";
+@import "_partials/layout/grouping";
+@import "_partials/layout/headline";
+@import "_partials/layout/interactive";
+@import "_partials/layout/page-banner";
+@import "_partials/layout/sections";
+@import "_partials/media/media";
+@import "_partials/navigation/footer";
+@import "_partials/navigation/header";
+@import "_partials/navigation/link-list";
+@import "_partials/navigation/main-nav";
+@import "_partials/navigation/nav-list";
+@import "_partials/navigation/page-links";
+@import "_partials/navigation/social-icons";
+@import "_partials/slider/hero-slider";
+@import "_partials/professor-card";
+@import "_partials/metabox";
+@import "_partials/post-item";
+@import "_partials/acf-map";
+@import "_partials/notes";
+@import "_partials/like-box";
+@import "_partials/school-logo";

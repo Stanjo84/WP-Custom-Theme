@@ -1,0 +1,20 @@
+.search-trigger {
+  display: none;
+  color: #FFF;
+  position: relative;
+  cursor: pointer;
+  top: 1px;
+  margin-left: 20px;
+}
+
+@media (min-width: 960px) {
+
+.search-trigger {
+    display: inline-block;
+    top: 6px
+}
+  }
+
+.search-trigger:hover {
+  opacity: .65;
+}

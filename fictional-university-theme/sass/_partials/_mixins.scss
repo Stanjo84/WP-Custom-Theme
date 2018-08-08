@@ -1,0 +1,17 @@
+/* mixins.scss */
+
+
+@mixin form-box {
+	background-color: rgba(114,119,124,0.50197);
+	padding-bottom: 100px;
+
+
+}
+
+
+@mixin alert($color) {
+	border-radius: .5em;
+	box-shadow: 0 0 .25em 0 rgba(0, 0, 0, .5);
+	border-top: 4px solid $color;
+	color: $color;
+}

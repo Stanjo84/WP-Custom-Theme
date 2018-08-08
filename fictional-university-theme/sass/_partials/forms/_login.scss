@@ -1,0 +1,127 @@
+/* Customize Login Screen */
+
+body.login .button-primary {
+  
+  background-color: $darkOrange;
+  border-color: $darkOrange;
+  text-shadow: 0 -1px 1px rgb(212, 82, 56),1px 0 1px rgb(212, 82, 56),0 1px 1px rgb(212, 82, 56),-1px 0 1px rgb(212, 82, 56);
+  -webkit-box-shadow: 0 1px 0 rgb(199, 80, 56);
+          box-shadow: 0 1px 0 rgb(199, 80, 56);
+}
+
+body.login .button-primary:hover,
+body.login .button-primary:active,
+body.login .button-primary:focus {
+
+  background-color: $darkOrange;
+  border-color: $darkOrange;
+  text-shadow: 0 -1px 1px rgb(199, 80, 56),1px 0 1px rgb(199, 80, 56),0 1px 1px rgb(199, 80, 56),-1px 0 1px rgb(199, 80, 56);
+  -webkit-box-shadow: 0 1px 0 rgb(186, 78, 56);
+          box-shadow: 0 1px 0 rgb(186, 78, 56);
+}
+
+body.login {
+
+  background-image: url(http://localhost/ficuni/wp-content/uploads/2018/08/library-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login h1 a {
+
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  background-image: none;
+  width: auto;
+  height: auto;
+  text-indent: 0;
+}
+
+#nav a, #backtoblog a {
+
+ color: #ffffff;
+ font-size: 15px;
+ text-align: center;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+
+  color: #F95738;
+}
+
+.login #nav a, .login #backtoblog a {
+
+  color: #fff;
+}
+
+#loginform {
+
+ @include form-box;
+}
+
+#lostpasswordform {
+
+ @include form-box;
+}
+
+.login form label {
+
+  color: #fff;
+  font-size: 20px;
+}
+
+.login form .input {
+
+  font-weight: none;
+}
+
+.login p {
+
+  text-align: center;
+}
+
+.login #nav  {
+
+  margin-top: -80px;
+}
+
+.login #backtoblog {
+
+  margin-bottom: -15px;
+}
+
+#registerform {
+
+@include form-box;
+
+}
+
+#reg_passmail {
+
+  color: #fff;
+}
+
+p.message.register {
+
+  background-color: $greyTransparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+#registerform .button {
+
+ margin-right: 98px;
+
+}
+
+.login #login_error {
+
+  @include alert($red);
+}
+
+.login .message, .login .success {
+
+   @include alert ($blue);
+ }
+
